@@ -2,7 +2,7 @@ name: 'FOSSA'
 
 on:
   schedule:
-    - cron: '00 23 * * *'
+    - cron: '10 * * * *'
 
 jobs:
   fossa-scan:
